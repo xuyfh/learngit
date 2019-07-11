@@ -1,0 +1,1 @@
+{"u":"file:///Users/xuyifan/Study/Boomerang/test1.html","v":"%boomerang_version%","rt.si":"1wm2wjlp8fl-NaN","rt.ss":"","rt.sl":"0","vis.st":"visible","ua.plt":"MacIntel","ua.vnd":"Google Inc.","pid":"fqtctv7h","n":"1","sb":"1"}
