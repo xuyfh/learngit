@@ -1,0 +1,110 @@
+.change-theme{
+    cursor: pointer;
+}
+.ref-red .u-input-group.simple .u-input-group-btn,
+.ref-blue .u-input-group.simple .u-input-group-btn{
+    top:0!important;
+}
+.ref-red .transferWrap .u-button .uf.uf-arrow-right, 
+.ref-blue .transferWrap .u-button .uf.uf-arrow-right {
+    font-size: 16px!important;
+    vertical-align: middle;
+}
+.demo{
+    padding: 10px;
+    
+    //主题
+    &-row.ref-blue{
+         .u-button.u-button-primary{
+            color: #fff;
+            background-color: #1e88e5;
+            border: 1px solid #1e88e5;
+         }
+    }
+    &-col{
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 10px;
+        
+        &>span{
+            display: inline-block;
+            width: 200px;
+            text-align: right;
+            margin-left: 10px;
+        }
+        .ref-filter-item:hover{
+            background: #ebecf0;
+            cursor: pointer;
+        }
+        .ref-filter-item:active{
+            background: rgb(255, 247, 231);
+        }
+
+    }
+    &-label{ 
+        vertical-align: top;
+        width: 350px;
+        height: 50px;
+        &>span{
+            display: inline-block;
+            width: 150px;
+            text-align: left;
+        }
+        .ref-input-wrap .u-input-group.simple .u-input-group-btn {
+            min-width: 20px;
+        }
+
+    }
+    &-label-require{ 
+        vertical-align: top;
+        width: 350px;
+        height: 50px;
+        position: relative;
+        &>.labelDiv{
+            width: 150px;
+            position: relative;
+            display: inline-block;
+            height: 32px;
+            &>.label{
+                display: inline-block;
+                max-width: 135px;
+                text-align: left;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                top: 6px;
+                position: relative;
+            }
+            &>.mast{
+                width: 5px;
+                display: inline-block;
+                min-width: auto;
+                margin-right: 5px;
+                color: red;
+                margin-left: 4px;
+            }
+        }
+        &>.error{
+            position: absolute;
+            left: 150px;
+            top: 30px;
+            margin-left: 0;
+            font-size: 12px;
+            color: red;
+        }
+        .ref-input-wrap .u-input-group.simple .u-input-group-btn {
+            min-width: 20px;
+        }
+    }
+}
+
+.ref-core-tree-node>a>span>div>span> i {
+    visibility: visible; 
+}
+.uf-group-2:before {
+    content: "\e64c"
+}
+
+.u-modal  .u-modal-content{
+    transform: none !important;
+}
